@@ -15,3 +15,15 @@
 
 ## Wireframing
 
+参见 /doc/wirframing
+
+## 技术点
+
+- 通过 grunt+bower，添加 bootstrap
+- 怎么使用ejs定义页面框架/layout
+- REST & MVC
+- 注册，登录
+- 分页
+
+
+## Guide
