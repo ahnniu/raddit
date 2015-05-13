@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 	grunt.registerTask('syncAssets', [
-    'bower:dev',
+    'bower',
 		'jst:dev',
 		'less:dev',
 		'sync:dev',

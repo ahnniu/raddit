@@ -19,14 +19,8 @@ module.exports = function(grunt) {
   grunt.config.set('bower', {
     install: {
       options: {
-        targetDir: './assets',
-        layout: function(type, component, source) {
-          var renamedType = type;
-          if (type === 'css') {
-            renamedType = 'styles';
-          }
-          return path.join(renamedType, 'vendor', component);
-        },
+        targetDir: './assets/vendor',
+        layout: 'byComponent',
         install: true,
         verbose: true,
         cleanTargetDir: false,
