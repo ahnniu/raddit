@@ -35,6 +35,6 @@
   "author": "ahnniu",
   "license": "",
   "devDependencies": {
-    "grunt-bower-task": "^0.4.0"
+    "grunt-bower": "^0.19.0"
   }
 }

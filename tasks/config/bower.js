@@ -17,18 +17,13 @@
 module.exports = function(grunt) {
 
   grunt.config.set('bower', {
-    install: {
+    dev: {
+      dest: './assets/vendor',
       options: {
-        targetDir: './assets/vendor',
-        layout: 'byComponent',
-        install: true,
-        verbose: true,
-        cleanTargetDir: false,
-        cleanBowerDir: false,
-        bowerOptions: { }
+        expand: true,
       }
     }
   });
 
-  grunt.loadNpmTasks('grunt-bower-task');
+  grunt.loadNpmTasks('grunt-bower');
 };
