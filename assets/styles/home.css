@@ -1,0 +1,54 @@
+#list_posts {
+}
+
+.list_post {
+	border: 1px dashed;
+	margin-top: 5px;
+
+}
+
+.list_post .row {
+
+}
+
+.list_post_updown {
+	border: 1px dashed;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+
+.list_post_updown .row {
+	/*border: 1px dashed;*/
+	margin-top: 8px;
+}
+
+.list_post_btn {
+	padding: 0;
+	margin-left: -15px;
+}
+.list_post_thumbnail {
+	border: 1px dashed;
+	/*margin-left: -15px;*/
+	margin-top: 10px;
+	margin-left: -10px;
+}
+
+.list_post_thumbnail img {
+	width: 64px;
+	height: 64px;
+}
+
+.list_post_content {
+	border: 1px dashed;
+	margin-top: 10px;
+}
+
+.list_post_content .row {
+	border: 1px dashed;
+	margin-top: 2px;
+}
+
+.list_post_commits {
+	border: 1px dashed;
+	margin-top: 30px;
+}
