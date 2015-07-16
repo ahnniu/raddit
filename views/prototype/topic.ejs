@@ -1,0 +1,91 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="panel panel-default">
+        <div class="panel-heading clearfix">
+          <div class="topic-details">
+            <div class="topic-details-vote pull-left">
+              <button type="button" class="vote-btn btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+                <span class="vote-count">3199</span>
+              </button>
+                <button type="button" class="vote-btn btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+              </button> 
+            </div>
+            <div class="topic-details-body pull-left">
+              <div class="topic-details-title">
+                <h3>[微信开发] 开发环境搭建，培训课程免费</h3>
+              </div>
+              <div class="topic-details-info">
+                
+                <span>
+                  •
+                  <a href="#" class="topic-author">Paul</a> 于
+                  <abbr title="2015-07-14T10:55:54+08:00" class="initialism">1天前</abbr> 发布
+                </span>
+
+                <span class="visible-md-inline visible-lg-inline">
+                  •
+                  最后由 <a href="#">ahnniu</a> 于 
+                  <abbr title="2015-07-15T10:55:54+08:00" class="initialism">4小时前</abbr>回复
+                </span>
+              </div>
+            </div>
+          </div>                                            <!-- div.topic-details End -->
+        </div>                                              <!-- div.panel End -->
+        <div class="topic-details-picture panel-body">
+          <img src="/images/avtar.png" alt="" class="img-rounded">
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          共收到<span class="reply-count">10</span>条留言
+        </div>
+        <div class="panel-body">
+          <div class="replies">
+            <div class="reply">
+              <div class="reply-info">
+                <span>#1</span>
+                <span>
+                  •
+                  <a href="#" class="reply-author">ahnniu</a>
+                </span>
+                <span>• 5天前</span>
+                
+              </div>
+              <div class="reply-body">
+                <span>
+                  Thanks，文章写得不错。
+                </span>
+              </div>
+            </div>
+          </div>                                            <!-- div.replies End -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =================================================== -->
+<!-- 
+NOTE: 正式用时 需要删除
+以下的javascript代码仅仅是为了页面展示，列表多列出来几个
+正式的view中需要删除
+
+另：此处加载了jquery.js, 因为在layout中，js加载都放到了最后面，
+javascript解析运行是按照先后顺序，如果没有加载jquery.js, 
+会提示 $ 没有定义
+ -->
+<script src="/vendor/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var _topic = $("div.reply").html();
+    for(var i = 0; i < 2; i++) {
+      $("div.reply").clone().appendTo("div.replies");  
+    }
+    
+  })
+</script>
+<!-- =================================================== -->

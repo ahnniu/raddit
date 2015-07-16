@@ -48,5 +48,7 @@ module.exports.routes = {
   '/prototype': {
     view: 'prototype/homepage',
   },
-
+  '/prototype/topic': {
+    view: 'prototype/topic',
+  },
 };
