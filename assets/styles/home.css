@@ -1,14 +1,20 @@
-body,
+
 html {
     width: 100%;
     height: 100%;
 }
 
 .topic {
-	min-height: 78px;
+	min-height: 70px;
 	border-bottom: 1px solid #F0F0F0;
-	padding: 10px 15px;
-	margin: 0px -15px;
+	margin: 5px 0;
+}
+
+.topic-vote {
+	width: 40px;
+	padding: 0;
+	margin: 2px 5px;
+
 }
 
 .vote-btn {
@@ -16,38 +22,87 @@ html {
 	margin: 4px 0;
 }
 
-@media(max-width:767px) {
-	.vote-btn {
-		margin: 0;
-	}
-}
-
 .vote-btn span {
 	display: block;
 	text-align: center;
 }
 
-
+.topic-avtar {
+	margin: 0 5px;
+}
 
 .topic-avtar img {
 	width: 64px;
 	height: 64px;
+	margin: 2px 0;
 }
 
-@media(max-width:767px) {
-	.topic-avtar img {
-		width: 48px;
-		height: 48px;
-	}
-
-	.topic-body {
-		max-width: 150px;
-		margin-left: 10px;
-	}
+.topic-body {
+	width: 75%;
+	margin: 0px 10px;
+	padding: 5px 0; 
 }
 
+.topic-title {
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	margin: 5px 0;
+	width: auto;
+}
 
 .topic-author {
 	margin-right: 20px;
+
+}
+
+.topic-count {
+	margin: 10px 10px;
+
+}
+
+@media(max-width:767px) {
+
+	.topics {
+		margin: -5px -12px;
+		min-height: 300px;
+
+	}
+
+	.topic {
+		min-height: 40px;
+		border-bottom: 1px solid #F0F0F0;
+		margin: 5px 0;
+
+	}
+
+	.topic-avtar {
+		margin: 0 2px;
+	}
+
+	.topic-avtar img {
+		width: 32px;
+		height: 32px;
+		margin: 2px 0;
+	}
+
+	.topic-body {
+		width: 75%;
+		margin: 0 2px;
+	}
+
+	.topic-title {
+		overflow: hidden;
+		white-space:nowrap;
+		text-overflow: ellipsis;
+		margin: 0;
+		width: auto;
+		font-size: .9em;
+	}	
+
+	.topic-count {
+		margin: 2px 2px;
+
+	}
 
 }
