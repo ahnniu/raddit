@@ -51,4 +51,10 @@ module.exports.routes = {
   '/prototype/topic': {
     view: 'prototype/topic',
   },
+  '/prototype/join': {
+    view: 'prototype/join',
+  },
+  '/prototype/login': {
+    view: 'prototype/login',
+  },
 };
