@@ -2,3 +2,9 @@
 .join {
   padding: 15px 80px;
 }
+
+@media(max-width:767px) {
+  .join {
+    padding: 5px 10px;
+  }
+}
